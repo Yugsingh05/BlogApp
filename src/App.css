@@ -1,0 +1,21 @@
+.ima{
+    
+    height: 8vh;
+    width:23vh;
+    background-size: cover;
+    background-image: url('./images/logo.png');
+    background-size: cover;
+    border-radius:5px ;
+}
+
+.postcard:hover{
+    box-shadow: 0 0 3rem lime;
+}
+@media (min-width : 400px) and (max-width : 950px) {
+    .ima{
+        height: 4vh;
+        width: 10vh;
+        margin-left: -0.5rem;       
+    }
+    
+}

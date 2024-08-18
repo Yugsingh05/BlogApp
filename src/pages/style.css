@@ -1,0 +1,45 @@
+
+.postDir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100%;
+   
+}
+.po{
+    margin-left: 30vw;
+    box-shadow: 0 0.5rem 1.2rem #fff;
+}
+.po:hover{
+    box-shadow: 0 0 2rem rgb(84, 199, 30);
+
+}
+.wid{
+    width: 55%;
+    border-radius: 25px;
+    background-color: rgb(141, 125, 191);
+    box-shadow: 0 0 1.5rem black;
+}
+.con{
+    height: 100%;
+    width: 80%;
+   box-shadow: 0 0rem 2.7rem rgb(245, 245, 245);
+   border-radius: 2.05rem;
+   border-style: none;
+    margin-left: 10vw;
+    background-color: rgba(132, 78, 240, 0.734);
+    
+    padding: 1rem;
+}
+.like::hover{
+    background-color: #fff;
+    
+}
+.like{
+    display: inline-block;
+    color: green;
+    
+   
+}

@@ -1,0 +1,28 @@
+.head{
+    /* background-color: rgb(17, 177, 17); */
+    background-color: rgb(26, 138, 138);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+/* .fix{
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+} */
+
+@media  (min-width : 400px) and (max-width : 850px) {
+    .head{
+        height: 6vh;
+        font-size: 0.5rem;
+    }
+    .head .lo{
+        width: 30%;
+        height: 5vh;
+        border: 2px solid black;
+
+    }
+    
+}
